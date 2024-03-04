@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-03T20:09:51 CET" name="WoltersKluwersAssignmentTestcases" finished-at="2024-03-03T20:09:52 CET" duration-ms="1336">
+    <groups>
+    </groups>
+    <test started-at="2024-03-03T20:09:51 CET" name="Tests" finished-at="2024-03-03T20:09:52 CET" duration-ms="1336">
+      <class name="tests.Positive_Test_Cases">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.Positive_Test_Cases@2d710f1a]" started-at="2024-03-03T20:09:49 CET" name="openBrowser" finished-at="2024-03-03T20:09:51 CET" duration-ms="1491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="createANewTask()[pri:1, instance:tests.Positive_Test_Cases@2d710f1a]" started-at="2024-03-03T20:09:51 CET" name="createANewTask" finished-at="2024-03-03T20:09:51 CET" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createANewTask -->
+        <test-method signature="editExistingTask()[pri:2, instance:tests.Positive_Test_Cases@2d710f1a]" started-at="2024-03-03T20:09:51 CET" name="editExistingTask" finished-at="2024-03-03T20:09:51 CET" depends-on-methods="tests.Positive_Test_Cases.createANewTask" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editExistingTask -->
+        <test-method signature="MarkSingleTaskCompleted()[pri:3, instance:tests.Positive_Test_Cases@2d710f1a]" started-at="2024-03-03T20:09:51 CET" name="MarkSingleTaskCompleted" finished-at="2024-03-03T20:09:51 CET" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MarkSingleTaskCompleted -->
+        <test-method signature="MarkALLTaskCompleted()[pri:4, instance:tests.Positive_Test_Cases@2d710f1a]" started-at="2024-03-03T20:09:51 CET" name="MarkALLTaskCompleted" finished-at="2024-03-03T20:09:52 CET" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MarkALLTaskCompleted -->
+        <test-method signature="DeleteATask()[pri:5, instance:tests.Positive_Test_Cases@2d710f1a]" started-at="2024-03-03T20:09:52 CET" name="DeleteATask" finished-at="2024-03-03T20:09:52 CET" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteATask -->
+        <test-method is-config="true" signature="closeBroswer()[pri:0, instance:tests.Positive_Test_Cases@2d710f1a]" started-at="2024-03-03T20:09:53 CET" name="closeBroswer" finished-at="2024-03-03T20:09:53 CET" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroswer -->
+      </class> <!-- tests.Positive_Test_Cases -->
+      <class name="tests.Negative_Test_Cases">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.Negative_Test_Cases@54e1c68b]" started-at="2024-03-03T20:09:47 CET" name="openBrowser" finished-at="2024-03-03T20:09:49 CET" duration-ms="1986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="createANewTask()[pri:0, instance:tests.Negative_Test_Cases@54e1c68b]" started-at="2024-03-03T20:09:51 CET" name="createANewTask" finished-at="2024-03-03T20:09:51 CET" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createANewTask -->
+        <test-method signature="enterAnEmptyTask()[pri:1, instance:tests.Negative_Test_Cases@54e1c68b]" started-at="2024-03-03T20:09:52 CET" name="enterAnEmptyTask" finished-at="2024-03-03T20:09:52 CET" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAnEmptyTask -->
+        <test-method signature="enterTasklessThanMinAllowedChar()[pri:2, instance:tests.Negative_Test_Cases@54e1c68b]" started-at="2024-03-03T20:09:52 CET" name="enterTasklessThanMinAllowedChar" finished-at="2024-03-03T20:09:52 CET" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTasklessThanMinAllowedChar -->
+        <test-method signature="verifyCompletedTasksInActiveTaskList()[pri:3, instance:tests.Negative_Test_Cases@54e1c68b]" started-at="2024-03-03T20:09:52 CET" name="verifyCompletedTasksInActiveTaskList" finished-at="2024-03-03T20:09:52 CET" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCompletedTasksInActiveTaskList -->
+        <test-method signature="VerifyActiveTasksInCompletedTaskList()[pri:4, instance:tests.Negative_Test_Cases@54e1c68b]" started-at="2024-03-03T20:09:52 CET" name="VerifyActiveTasksInCompletedTaskList" finished-at="2024-03-03T20:09:52 CET" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyActiveTasksInCompletedTaskList -->
+        <test-method is-config="true" signature="closeBroswer()[pri:0, instance:tests.Negative_Test_Cases@54e1c68b]" started-at="2024-03-03T20:09:52 CET" name="closeBroswer" finished-at="2024-03-03T20:09:53 CET" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroswer -->
+      </class> <!-- tests.Negative_Test_Cases -->
+    </test> <!-- Tests -->
+  </suite> <!-- WoltersKluwersAssignmentTestcases -->
+</testng-results>
