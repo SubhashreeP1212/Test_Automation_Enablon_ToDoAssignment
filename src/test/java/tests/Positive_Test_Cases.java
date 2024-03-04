@@ -34,19 +34,19 @@ public class Positive_Test_Cases {
 	}
 	//Positive Scenario: Mark an individual Task Completed	
 	@Test(priority=3)
-	public void MarkSingleTaskCompleted() {
+	public void markSingleTaskCompleted() {
 		HomePage page = new HomePage(driver);
 		page.markIndividualTaskCompleted();
 	}
 	//Positive Scenario: Mark All the Tasks Completed
 	@Test(priority=4)
-	public void MarkALLTaskCompleted() {
+	public void markALLTaskCompleted() {
 		HomePage page = new HomePage(driver);
 		page.markAllTaskCompleted();
 	}
 	//Positive Scenario: Delete A Task
 	@Test(priority=5)
-	public void DeleteATask() {
+	public void deleteATask() {
 		HomePage page = new HomePage(driver);
 		page.deleteATask();
 	}	
