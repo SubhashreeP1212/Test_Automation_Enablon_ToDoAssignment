@@ -47,7 +47,7 @@ RemoteWebDriver driver;
 	}
 	//Negative Scenario: Verify if Active Task displays under Completed Task List
 	@Test(priority=4)
-	public void VerifyActiveTasksInCompletedTaskList() {
+	public void verifyActiveTasksInCompletedTaskList() {
 		HomePage page = new HomePage(driver);
 		page.addTaskToCompletedTask();
 	}
